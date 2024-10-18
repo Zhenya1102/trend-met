@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
+@font-face {
+    font-family: 'Manrope';
+    src: url("../../public/fonts/Manrope-Medium.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope-Medium';
+    src: url("../../public/fonts/Manrope-Medium.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope-SemiBold';
+    src: url("../../public/fonts/Manrope-SemiBold.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope-ExtraBold';
+    src: url("../../public/fonts/Manrope-ExtraBold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

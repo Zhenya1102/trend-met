@@ -1,0 +1,16 @@
+@import "null.css";
+@import "common.css";
+@import "header.css";
+@import "footer.css";
+@import "main/home.css";
+@import "main/program.css";
+@import "main/advantages.css";
+@import "main/consultation.css";
+@import "fonts.css";
+@import "../../node_modules/swiper/swiper-bundle.css";
+@import '../../node_modules/swiper/swiper.css';
+@import '../../node_modules/swiper/modules/navigation.css';
+@import "swiper-slider.css";
+
+
+
