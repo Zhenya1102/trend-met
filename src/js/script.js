@@ -1,5 +1,3 @@
-import './swiper.js'
-
 // Add the class "scrolled" to the header element when scrolling more than 50 pixels on the page.
 // Добавляем класс «scrolled» в элемент заголовка при прокрутке страницы более чем на 50 пикселей.
 window.onscroll = function() {scrollFunction()};
