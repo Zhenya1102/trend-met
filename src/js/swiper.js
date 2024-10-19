@@ -1,5 +1,8 @@
 import Swiper from "swiper";
 import { Navigation , EffectCube} from 'swiper/modules';
+import 'swiper/css';
+// import 'swiper/css/navigation';
+import 'swiper/css/bundle';
 
 const swiper = new Swiper('.swiper', {
     modules: [ Navigation, EffectCube ],
