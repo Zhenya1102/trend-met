@@ -1,8 +1,14 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 import { Navigation , EffectCube} from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/bundle';
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/bundle';
+/*@import "../../node_modules/swiper/swiper-bundle.css";*/
+/*@import '../../node_modules/swiper/swiper.css';*/
+/*@import '../../node_modules/swiper/modules/navigation.css';*/
+import '/node_modules/swiper/swiper-bundle.css';
+import '/node_modules/swiper/swiper.css';
+import '/node_modules/swiper/modules/navigation.css';
 
 const swiper = new Swiper('.swiper', {
     modules: [ Navigation, EffectCube ],
