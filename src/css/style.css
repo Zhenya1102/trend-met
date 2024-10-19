@@ -7,9 +7,12 @@
 @import "main/advantages.css";
 @import "main/consultation.css";
 @import "fonts.css";
-@import "../../node_modules/swiper/swiper-bundle.css";
-@import '../../node_modules/swiper/swiper.css';
-@import '../../node_modules/swiper/modules/navigation.css';
+/*@import "../../node_modules/swiper/swiper-bundle.css";*/
+/*@import '../../node_modules/swiper/swiper.css';*/
+/*@import '../../node_modules/swiper/modules/navigation.css';*/
+@import "node_modules/swiper/swiper-bundle.css";
+@import 'node_modules/swiper/swiper.css';
+@import 'node_modules/swiper/modules/navigation.css';
 @import "swiper-slider.css";
 
 
