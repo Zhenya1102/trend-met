@@ -1,5 +1,5 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
-import { Navigation , EffectCube} from 'swiper/modules';
+import { Navigation , EffectCube} from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/bundle';
