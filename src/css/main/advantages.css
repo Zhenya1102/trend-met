@@ -132,6 +132,26 @@
     row-gap: 20px;
 }
 
+@media (min-width: 1100px) {
+    .advantages__card.card-visible .card-label {
+        animation: leftCard 3s;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes leftCard {
+        0% {
+            transform: translate(0px);
+        }
+        50% {
+            transform: translate(-10px, -10px);
+        }
+        100% {
+            transform: translate(0);
+        }
+    }
+}
+
+
 @media (max-width: 1099px) {
     .card-label {
         justify-content: flex-start;
@@ -180,6 +200,25 @@
     top: 16px;
     left: 248px;
     min-height: 422px;
+}
+
+@media (min-width: 1100px) {
+    .advantages__card.card-visible .card-info {
+        animation: rightCard 3s ease;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes rightCard {
+        0% {
+            transform: translate(0px);
+        }
+        50% {
+            transform: translate(40px, 30px);
+        }
+        100% {
+            transform: translate(0);
+        }
+    }
 }
 
 @media (max-width: 1099px) {

@@ -1,3 +1,27 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.advantages__card');
+
+    // Функция для анимации карточек
+    const animateCards = (entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Добавляем класс, чтобы активировать анимацию
+                entry.target.classList.add('card-visible');
+            }
+        });
+    };
+
+    // Создаем наблюдателя
+    const observer = new IntersectionObserver(animateCards, {
+        threshold: 0.3 // Анимация сработает, когда 30% карточки появится на экране
+    });
+
+    // Наблюдаем за каждой карточкой
+    cards.forEach(card => observer.observe(card));
+});
+
+
+
 // Add the class "scrolled" to the header element when scrolling more than 50 pixels on the page.
 // Добавляем класс «scrolled» в элемент заголовка при прокрутке страницы более чем на 50 пикселей.
 window.onscroll = function() {scrollFunction()};
