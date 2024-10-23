@@ -10,6 +10,15 @@
     margin: 0;
 }
 
+@media (max-width: 1130px) {
+    .swiper-cube .swiper-cube-shadow {
+        position: unset;
+    }
+    .swiper {
+        max-height: 640px;
+    }
+}
+
 .swiper-wrapper {
     box-sizing: content-box;
 }
